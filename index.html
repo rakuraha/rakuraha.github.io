@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+
+    <!-- Recommended meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Stylesheet (CSS) -->
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+    <div id="loaded">
+        <div id="loaded-message"></div>
+        <canvas id="startup"></canvas>
+    </div>
+    <script type="text/javascript" src="./index.js"></script>
+
+    <div id="another" style="display: none;">
+        <!-- Header and Navigation Section -->
+    <header class="header">
+        <a class="name">Raku Kurahashi</a>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#portfolio">Portfolio</a>
+        </nav>
+    </header>
+
+    <!-- Introduction Section -->
+    <section class="home" style="background:url(./images/header.jpg) no-repeat; background-size: cover; background-position: center;">
+        <div class="home-content">
+            <h1>Hi, I'm Raku Kurahashi</h1>
+            <p>About Me: Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, voluptabus. Id numquam, maiores obcaecati architecto voluptas voluptate, facere iusto asperiores accusamus dignissimos quibusdam voluptates, exercitationem reprehenderit eaque.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <a name="portfolio"></a>
+    <section class="portfolio">
+
+        <!-- PROJECT -->
+        <article class="project-card">
+            <a href="./project01.html" class="project-link">
+                <h2 class="porject-title">Project 1: Paper Airplane</h2>
+                <p class="project-desc">Create a paper airplane only using Generative AI as a guide.</p>
+                <img src="./images/project01.png" class="project-img">
+            </a>
+        </article>
+
+        <!-- PROJECT -->
+        <article class="project-card">
+            <a href="./project02.html" class="project-link">
+                <h2 class="porject-title">Project 2: Design a Coaster</h2>
+                <p class="project-desc">Use Generative AI to design a drink coaster for a client.</p>
+                <img src="./images/project02.png" class="project-img">
+            </a>
+        </article>
+
+    </section>
+    </div>
+    
+</body>
+</html>
